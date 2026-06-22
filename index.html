@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Anila Sara John | Portfolio</title>
+  <meta name="description"
+    content="Portfolio of Anila Sara John – Computer Science undergraduate, data enthusiast, and aspiring developer." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- ========== NAVBAR ========== -->
+  <nav id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="nav-brand">Anila Sara John</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#education" class="nav-link">Education</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ========== HERO ========== -->
+  <section id="home">
+    <div class="hero-content">
+      <span class="hero-greeting">Hello, I'm</span>
+      <h1 class="hero-name">Anila Sara John</h1>
+      <h2 class="hero-role">Computer Science Undergraduate</h2>
+      <p class="hero-desc">
+        I enjoy building web applications, solving problems, and learning new technologies. My primary interests include
+        software development, backend systems, and database-driven applications.
+      </p>
+      <div class="hero-actions">
+        <a href="Resume.pdf" download class="btn btn-primary">⬇ Download Resume</a>
+        <a href="#projects" class="btn btn-outline">View Projects</a>
+        <a href="#contact" class="btn btn-outline">Get in Touch</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== ABOUT ========== -->
+  <section id="about">
+    <div class="container">
+      <h2 class="section-title">About Me</h2>
+      <div class="about-card">
+        <p>
+          I'm Anila Sara John, a final-year Computer Science and Engineering student at
+          <strong>College of Engineering, Adoor</strong>. I enjoy turning ideas into
+          functional applications and have built projects involving web development,
+          databases and authentication systems using Python and Flask.
+          I'm always eager to learn new technologies, strengthen my problem-solving skills,
+          and grow as a software developer.
+        </p>
+        <div class="about-details">
+          <div class="detail-item">
+            <span class="detail-label">📧 Email</span>
+            <span class="detail-value">
+              <a href="mailto:anilasajohn@gmail.com">anilasajohn@gmail.com</a>
+            </span>
+          </div>
+          <div class="detail-item">
+            <span class="detail-label">📍 Location</span>
+            <span class="detail-value">Kerala, India</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== EDUCATION ========== -->
+  <section id="education">
+    <div class="container">
+      <h2 class="section-title">Education</h2>
+      <div class="edu-card">
+        <div class="edu-icon">🎓</div>
+        <div class="edu-info">
+          <span class="edu-year">2023 &ndash; Present</span>
+          <h3 class="edu-degree">B.Tech &ndash; Computer Science &amp; Engineering</h3>
+          <p class="edu-school">College of Engineering, Adoor</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== SKILLS ========== -->
+  <section id="skills">
+    <div class="container">
+      <h2 class="section-title">Skills</h2>
+      <div class="skills-grid">
+
+        <div class="skill-category">
+          <h3 class="skill-cat-title">Programming Languages</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">Python</span>
+            <span class="skill-tag">Java</span>
+            <span class="skill-tag">C Programming</span>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <h3 class="skill-cat-title">Web Development</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">HTML</span>
+            <span class="skill-tag">CSS</span>
+            <span class="skill-tag">Flask</span>
+            <span class="skill-tag">Bootstrap</span>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <h3 class="skill-cat-title">Database</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">MySQL</span>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <h3 class="skill-cat-title">Tools & Platforms</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">Git</span>
+            <span class="skill-tag">GitHub</span>
+            <span class="skill-tag">VS Code</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== PROJECTS ========== -->
+  <section id="projects">
+    <div class="container">
+      <h2 class="section-title">Projects</h2>
+      <div class="projects-grid">
+
+
+        <div class="project-card">
+          <div class="project-header">
+            <span class="project-icon">📅</span>
+            <div class="project-tags">
+              <span class="tag">Python</span>
+              <span class="tag">Flask</span>
+              <span class="tag">MySQL</span>
+              <span class="tag">HTML/CSS</span>
+            </div>
+          </div>
+
+          <h3 class="project-title">SmartDay</h3>
+
+          <p class="project-desc">
+            A productivity and task management web application designed to help users organize their daily
+            activities efficiently. Features include task creation, updates, and tracking through a
+            user-friendly interface, with data stored and managed using MySQL.
+          </p>
+
+          <a href="https://github.com/anila-sara-john/SmartDay" target="_blank" class="btn btn-primary btn-sm">
+            View on GitHub →
+          </a>
+        </div>
+
+
+
+        <div class="project-card">
+          <div class="project-header">
+            <span class="project-icon">🧭</span>
+            <div class="project-tags">
+              <span class="tag">Python</span>
+              <span class="tag">Flask</span>
+              <span class="tag">MySQL</span>
+              <span class="tag">HTML/CSS</span>
+            </div>
+          </div>
+
+          <h3 class="project-title">PathPilot</h3>
+
+          <p class="project-desc">
+            A career guidance web application that helps students explore suitable career paths based on
+            their interests and preferences. Built using Flask and MySQL, the platform includes user
+            authentication, database-driven recommendations, and an interactive interface for career
+            exploration and decision-making.
+          </p>
+
+          <a href="https://github.com/anila-sara-john/PathPilot" target="_blank" class="btn btn-primary btn-sm">
+            View on GitHub →
+          </a>
+        </div>
+
+        <div class="project-card">
+          <div class="project-header">
+            <span class="project-icon">🎮</span>
+            <div class="project-tags">
+              <span class="tag">Python</span>
+              <span class="tag">Tkinter</span>
+            </div>
+          </div>
+          <h3 class="project-title">Hangman Game in Python</h3>
+          <p class="project-desc">
+            A classic Hangman game built using Python, with two interfaces: a command-line version
+            and a graphical version using Tkinter. Focuses on core game logic and basic user
+            interaction in both versions.
+          </p>
+          <a href="https://github.com/anila-sara-john/hangman-game" target="_blank" class="btn btn-primary btn-sm">
+            View on GitHub →
+          </a>
+        </div>
+
+        <!-- Placeholder for future projects -->
+        <div class="project-card project-card--placeholder">
+          <div class="project-header">
+            <span class="project-icon">🚀</span>
+          </div>
+          <h3 class="project-title">More Coming Soon</h3>
+          <p class="project-desc">
+            Currently working on exciting new projects. Stay tuned for updates!
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CONTACT ========== -->
+  <section id="contact">
+    <div class="container">
+      <h2 class="section-title">Get In Touch</h2>
+      <p class="contact-subtitle">
+        Feel free to reach out for collaborations, opportunities, or just a friendly hello!
+      </p>
+      <div class="contact-cards">
+
+        <a href="mailto:anilasajohn@gmail.com" class="contact-card">
+          <span class="contact-icon">📧</span>
+          <span class="contact-label">Email</span>
+          <span class="contact-value">anilasajohn@gmail.com</span>
+        </a>
+
+        <a href="https://www.linkedin.com/in/anila-sara-john-0b1392316" target="_blank" class="contact-card">
+          <span class="contact-icon">💼</span>
+          <span class="contact-label">LinkedIn</span>
+          <span class="contact-value">anila-sara-john</span>
+        </a>
+
+        <a href="https://github.com/anila-sara-john" target="_blank" class="contact-card">
+          <span class="contact-icon">🐙</span>
+          <span class="contact-label">GitHub</span>
+          <span class="contact-value">anila-sara-john</span>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer id="footer">
+    <p>© 2026 Anila Sara John · Built with ❤️</p>
+  </footer>
+
+  <!-- ========== SCRIPTS ========== -->
+  <script>
+    // Sticky navbar shadow on scroll
+    const navbar = document.getElementById('navbar');
+    window.addEventListener('scroll', () => {
+      navbar.classList.toggle('scrolled', window.scrollY > 30);
+    });
+
+    // Mobile nav toggle
+    const toggle = document.getElementById('navToggle');
+    const navLinks = document.getElementById('navLinks');
+    toggle.addEventListener('click', () => {
+      navLinks.classList.toggle('open');
+      toggle.classList.toggle('open');
+    });
+
+    // Close mobile menu when a link is clicked
+    document.querySelectorAll('.nav-link').forEach(link => {
+      link.addEventListener('click', () => {
+        navLinks.classList.remove('open');
+        toggle.classList.remove('open');
+      });
+    });
+
+    // Active nav link on scroll
+    const sections = document.querySelectorAll('section[id]');
+    const navItems = document.querySelectorAll('.nav-link');
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          navItems.forEach(l => l.classList.remove('active'));
+          const active = document.querySelector(`.nav-link[href="#${entry.target.id}"]`);
+          if (active) active.classList.add('active');
+        }
+      });
+    }, { threshold: 0.4 });
+    sections.forEach(s => observer.observe(s));
+  </script>
+
+</body>
+
+</html>
